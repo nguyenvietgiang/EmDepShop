@@ -1,0 +1,348 @@
+﻿body {margin:0;padding:0;background:url(images/nenbody.gif) repeat
+}
+.contener{width:1000px;margin:auto;height:100%}
+
+#dongke{height:3px;background:url(images/lineheader.png) repeat}
+
+/*khu vực đầu trang*/
+#dautrang {background:url(images/bgheader.jpg) repeat;height:120px}
+#logo{height:110px;padding-top:5px;padding-bottom:5px}
+#logochu{width:235px;height:100px;float:left;padding-top:5px;padding-bottom:5px}
+#anh1{width:225px;height:90px;background:url(images/emdep.png) no-repeat center center;padding-top:5px;padding-bottom:5px}
+#logoanh{width:735px;float:left;height:100px;padding-top:5px;padding-bottom:5px;padding-left: 30px}
+#anh2{width:725px;height:90px;background:url(images/emdep1.png) no-repeat;padding-top:5px;padding-bottom:5px}
+
+/*memu đầu trang*/
+#menudautrang{height:40px;background:url(images/menungang_nen.png) repeat;padding:1px}
+#menudautrang .contener{padding:1px}
+#menutrai{float:left;height:40px; width:800px}
+.menungang{height:100%;margin:0px auto;padding: 0px}
+.menu1{float:left; list-style:none;padding:10px 18px 0px 0px}
+.menungang li a{text-decoration: none;border-right:1px solid #ccc;color:white;font:bold 15px SFUEurostileCond;padding: 9px 20px 10px 0px}
+#menutrai a:hover{color:black}
+#dangnhap{float:right;height:40px; width:200px}
+#dangnhap ul{margin:0px;padding:10px 0px}
+#dangnhap ul li{list-style:none;float:right;margin:0}
+#dangnhap ul li a{text-decoration:none; color:black;font:bold 15px SFUEurostileCond}
+.dangnhap1 a{margin: 0px 0px 0px 10px;}
+.dangnhap2 a{margin: 0px 10px;}
+
+/*Link đường dẫn tới thư mục*/
+.inner{width:100%;height:35px}
+.inner a{float:left; text-decoration:none;line-height: 35px;font: normal 15px SFUEurostileCond;color:#ff006e;line-height:35px}
+.icon{width: 6px;height: 10px;float:left ;background:url(images/road.png)no-repeat center center;margin:13px 5px 12px 5px}
+
+/*thân trang*/
+#thantrang{overflow: hidden}
+#thantrang .contener{}
+
+#trangtrai{width:280px;float:left;height:100%;margin-right:5px;overflow: hidden}
+
+#danhmuc{width:100%;overflow: hidden}
+.daumuc{background:#f75d75;border-radius:7px 7px 0px 0px;height:35px}
+.daumuc > a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left: 53px;color: white}
+.ditmuc{background:#f9dde1;border:1px solid #808080;border-radius:0px 0px 7px 7px}
+#danhmuc ul{list-style: none;padding:0px;margin:0px}
+#danhmuc ul li{height:35px;border-bottom:1px solid #808080;}
+#danhmuc ul li:hover {background:#f8dde1}
+#danhmuc ul li a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left:126px;text-decoration: none;color:#f75d75}
+#danhmuc ul li a:hover{color:black}
+
+#hotro{width:99%;overflow: hidden;margin-top:15px;border:1px solid #808080;background:#f9dde1;border-radius:7px}
+#pichotro{width:100%;overflow: hidden}
+.logohotro{width:100%;background:#f75d75}
+.logohotro img{margin: 5px 0px 0px 60px}
+#pichotro>h3{color:#d6252b;font:bold 18px SFUEurostileCond;text-align: center;border-bottom: 1px solid #ea819e;margin:0px; padding:10px 0px 10px 0px}
+.support{margin: 0px 10px 0px 10px;}
+.text-center{  border-bottom: 1px solid #f75d75;width: 100%;margin: 15px 0pc 0px 0px;}
+.text-center p{margin:0px;margin-bottom: 15px}
+.supp-name{color: #f75d75;font: bold 17px SFUEurostileCond;margin-bottom:5px}
+.support a{   }
+
+#thanhtoan{width:100%;overflow: hidden;margin-top:15px}
+.title-thanhtoan {width:100%;height:35px;background:#f75d75;border-radius:7px 7px 0px 0px}
+.title-thanhtoan > a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left: 53px;color: white}
+.thongtinnganhang{overflow: hidden;background:#f9dde1;border:1px solid #808080;border-radius:0px 0px 7px 7px}
+.nganhang{ margin-top:25px;border-bottom:1px solid #f75d75}
+.nganhang img{margin:0px 0px 3px 15px}
+.nganhang p {margin:2px 0px 30px 15px}
+
+#thongketruycap{width:100%;overflow: hidden;margin-top:15px}
+.title-thongke{width:100%;height:35px;background:#f75d75;border-radius:7px 7px 0px 0px}
+.title-thongke > a{font:bold 15px SFUEurostileCond;line-height:35px;margin-left: 53px;color: white}
+.so-thongke{overflow: hidden;background:#f9dde1;border:1px solid #808080;border-radius:0px 0px 7px 7px}
+.so-thongke p{margin:0px;margin: 10px 0px 10px 15px;}
+
+/*#trangphai{width:709px;float:left;height:1304px;margin-left:4px;border:1px solid #f75d75;border-radius:5px;}*/
+#trangphai{background: #fff;
+    border-radius: 4px;
+    padding: 0px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.1);
+    padding-bottom: 18px;}
+.title-gioithieu{width:100%;height: 50px}
+.title-gioithieu h1{
+    padding: 5px 15px 10px 15px;
+    border-bottom: 1px solid #ea819e;
+    text-transform: uppercase;
+    color: #ea819e;
+    font-size: 18px;
+    margin-bottom: 20px;}
+
+.userbox { 
+    width: 335px;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.clearfix{height:33px;width:332px;margin-bottom:10px}
+#first_name{}
+.label-fname{background-color: #F8F8F8 !important;border: solid 1px #E7E7E7;height:30px;width:30px;background:url(../pic/dangnhap/userico.png)no-repeat center center;float:left; }
+.text{border: solid 1px #E7E7E7;height:28px;width:290px;float:left;padding-left: 7px;}
+.label-lname{background-color: #F8F8F8 !important;border: solid 1px #E7E7E7;height:30px;width:30px;background:url(../pic/dangnhap/userico.png)no-repeat center center;float:left; }
+.label-email{background-color: #F8F8F8 !important;border: solid 1px #E7E7E7;height:30px;width:30px;background:url(../pic/dangnhap/email.png)no-repeat center center;float:left; }
+.label-pass{background-color: #F8F8F8 !important;border: solid 1px #E7E7E7;height:30px;width:30px;background:url(../pic/dangnhap/pass.png)no-repeat center center;float:left; }
+.action_bottom .btn{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    height: 35px;
+    background: #ea819e;
+    text-align: center;
+    border: none;
+}
+.action_bottom .btn:hover {
+    background: #d96686;
+    color: #fff;
+}
+.req_pass {
+    margin-top: 10px;
+}
+.req_pass a {
+    text-decoration: none;
+    color: #ea819e !important;
+}
+.req_pass a:hover {
+    color: #ef8742 !important;
+}
+
+}
+/*chân trang*/
+#footer{height:170px;background:url(images/bgfooter.jpg) no-repeat center center;margin-top:50px}
+#footer .contener{}
+.menufoter  {width: 206px;margin: auto;padding-top: 120px;}
+.header h1 {
+    color: white;
+}
+
+.header_top {
+    margin: 0px 0px 1px 0px;
+    width: 100%;
+    height: 20%;
+    background-color: #0f727b;
+    align-items: center;
+    display: flex;
+}
+
+    .header_top p {
+        color: white;
+        padding-left: 80px;
+    }
+
+    .header_top .login {
+        margin-left: 60%;
+        text-decoration: none;
+        display: flex;
+    }
+
+        .header_top .login p {
+            color: white;
+        }
+
+        .header_top .login a {
+            color: white
+        }
+
+.header_mid {
+    margin: 0px 0px 1px 0px;
+    width: 100%;
+    height: 50%;
+    background-color: #353535;
+    align-items: center;
+    display: flex;
+}
+
+    .header_mid h1 {
+        padding-left: 80px;
+    }
+
+    .header_mid input[type="text"] {
+        margin-left: 200px;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-radius: 4px;
+        outline: none;
+        padding: 12px 14px;
+    }
+
+    .header_mid input[type="submit"] {
+        width: 50px;
+        background: #C89979;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 12px 0px;
+        color: white;
+    }
+
+.header_bot {
+    width: 100%;
+    height: 30%;
+    background-color: #0f727b;
+    align-items: center;
+    display: flex;
+}
+
+    .header_bot .icon {
+        display: none;
+    }
+
+    .header_bot ul {
+        margin: auto;
+        padding: 0px;
+    }
+
+        .header_bot ul li {
+            list-style: none;
+            float: left;
+        }
+
+            .header_bot ul li a {
+                text-decoration: none;
+                display: block;
+                height: 40px;
+                line-height: 40px;
+                color: white;
+                padding: 0px 15px 0px 15px;
+            }
+
+    .header_bot a:hover {
+        background-color: #353535;
+        color: white;
+    }
+/*------------------banner--------------*/
+
+.content {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.auth {
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 440px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.auth__header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .auth__header h2 {
+        margin: 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #696969;
+    }
+
+.switch-btn {
+    color: var(--primary-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+.auth__form {
+    padding: 15px 40px 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+    .form-control label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .form-control input {
+        border: 1px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+        outline-color: #2ecc71;
+    }
+
+    .form-control.valid input {
+        border-color: #2ecc71;
+        outline-color: #2ecc71;
+    }
+
+    .form-control.invalid input {
+        border-color: #e74c3c;
+        outline-color: #e74c3c;
+    }
+
+    .form-control.invalid p {
+        visibility: visible;
+        color: #e74c3c;
+    }
+
+    .form-control p {
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+.auth_btn {
+    cursor: pointer;
+    background-color: #FF3366;
+    border: none;
+    color: #f0f0f0;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+}
+
+    .auth_btn:hover {
+        background-color: #2abb66;
+    }
+
+.auth:nth-child(2) {
+    display: none;
+}
+
+#btn_error {
+}
+

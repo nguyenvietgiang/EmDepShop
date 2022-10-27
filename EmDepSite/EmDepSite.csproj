@@ -1,0 +1,376 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC3505D4-4696-4A3F-A94C-F5AD8FFE135D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EmDepSite</RootNamespace>
+    <AssemblyName>EmDepSite</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASPSnippets.GoogleAPI">
+      <HintPath>..\..\..\..\Downloads\Sign in with Gmail Account\ASPSnippets.GoogleAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ChitietGH.aspx" />
+    <Content Include="css\images\Facebook_Logo %281%29.png" />
+    <Content Include="css\images\logo-instagram-5 %281%29.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="js\DoiMK.js" />
+    <Content Include="pic\tin-tuc\News.jpg" />
+    <Content Include="DoiMK.aspx" />
+    <Content Include="ChiTietBV.aspx" />
+    <Content Include="ChiTietSP.aspx" />
+    <Content Include="css\bai-viet-chi-tiet.css" />
+    <Content Include="css\cam-nang-thoi-trang.css" />
+    <Content Include="css\chi-tiet-san-pham.css" />
+    <Content Include="css\dang-ky.css" />
+    <Content Include="css\dang-nhap.css" />
+    <Content Include="css\gio-hang.css" />
+    <Content Include="css\gioi-thieu.css" />
+    <Content Include="css\images\agribank.jpg" />
+    <Content Include="css\images\agribank.png" />
+    <Content Include="css\images\akmasa.png" />
+    <Content Include="css\images\bgfooter.jpg" />
+    <Content Include="css\images\bgheader.jpg" />
+    <Content Include="css\images\emdep.png" />
+    <Content Include="css\images\emdep1.png" />
+    <Content Include="css\images\header-cart.png" />
+    <Content Include="css\images\hotline.png" />
+    <Content Include="css\images\lineheader.png" />
+    <Content Include="css\images\LOGO.png" />
+    <Content Include="css\images\LOGO1.png" />
+    <Content Include="css\images\logo3.png" />
+    <Content Include="css\images\logo_vietinbank.jpg" />
+    <Content Include="css\images\menungang_nen.png" />
+    <Content Include="css\images\nenbody.gif" />
+    <Content Include="css\images\nganhang\agribank.png" />
+    <Content Include="css\images\nganhang\vietcombank.png" />
+    <Content Include="css\images\nganhang\vietinbank.png" />
+    <Content Include="css\images\road.png" />
+    <Content Include="css\images\search_icon.png" />
+    <Content Include="css\images\skype-icon.png" />
+    <Content Include="css\images\slide1.jpg" />
+    <Content Include="css\images\slide2.jpg" />
+    <Content Include="css\images\slide3.jpg" />
+    <Content Include="css\images\vcb.jpg" />
+    <Content Include="css\images\vietcombank.png" />
+    <Content Include="css\images\VietinBank-Logo-EPS-vector-image.png" />
+    <Content Include="css\images\vietinbank.png" />
+    <Content Include="css\images\yahoo-icon.png" />
+    <Content Include="css\index.css" />
+    <Content Include="css\lien-he.css" />
+    <Content Include="css\san-pham.css" />
+    <Content Include="css\tin-tuc.css" />
+    <Content Include="DangKy.aspx" />
+    <Content Include="GioHang.aspx" />
+    <Content Include="GioiThieu.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="js\DangKy.js" />
+    <Content Include="js\full-width-slider.slider\deep-minified.html" />
+    <Content Include="js\full-width-slider.slider\img\a22.png" />
+    <Content Include="js\full-width-slider.slider\img\b05.png" />
+    <Content Include="js\full-width-slider.slider\img\blue.jpg" />
+    <Content Include="js\full-width-slider.slider\img\c-finger-pointing.png" />
+    <Content Include="js\full-width-slider.slider\img\c-fruit.png" />
+    <Content Include="js\full-width-slider.slider\img\c-jssor-slider.png" />
+    <Content Include="js\full-width-slider.slider\img\c-navigator-horizontal.png" />
+    <Content Include="js\full-width-slider.slider\img\c-navigator.png" />
+    <Content Include="js\full-width-slider.slider\img\c-phone-horizontal.png" />
+    <Content Include="js\full-width-slider.slider\img\c-phone.png" />
+    <Content Include="js\full-width-slider.slider\img\c-slide-1.jpg" />
+    <Content Include="js\full-width-slider.slider\img\c-slide-3.jpg" />
+    <Content Include="js\full-width-slider.slider\img\c-text.png" />
+    <Content Include="js\full-width-slider.slider\img\loading.gif" />
+    <Content Include="js\full-width-slider.slider\img\purple.jpg" />
+    <Content Include="js\full-width-slider.slider\img\red.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao10.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao11.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao12.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao2.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao3.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao4.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao5.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao6.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao7.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao8.jpg" />
+    <Content Include="js\full-width-slider.slider\img\sanpham\ao9.jpg" />
+    <Content Include="js\full-width-slider.slider\img\slider\slide1.jpg" />
+    <Content Include="js\full-width-slider.slider\img\slider\slide2.jpg" />
+    <Content Include="js\full-width-slider.slider\img\slider\slide3.jpg" />
+    <Content Include="js\full-width-slider.slider\js\jquery-1.11.3.min.js" />
+    <Content Include="js\full-width-slider.slider\js\jssor.slider-21.1.5.debug.js" />
+    <Content Include="js\full-width-slider.slider\js\jssor.slider-21.1.5.min.js" />
+    <Content Include="js\full-width-slider.slider\js\jssor.slider-21.1.5.mini.js" />
+    <Content Include="js\full-width-slider.slider\no-jquery.html" />
+    <Content Include="js\full-width-slider.slider\with-jquery.html" />
+    <Content Include="js\index.js" />
+    <Content Include="login.aspx" />
+    <Content Include="pic\anhsp\ao-nu.jpg" />
+    <Content Include="pic\anhsp\ao-nu1.jpg" />
+    <Content Include="pic\anhsp\ao-nu2.jpg" />
+    <Content Include="pic\anhsp\cart.png" />
+    <Content Include="pic\anhsp\check.png" />
+    <Content Include="pic\dangnhap\2.png" />
+    <Content Include="pic\dangnhap\email.png" />
+    <Content Include="pic\dangnhap\FaceBook.png" />
+    <Content Include="pic\dangnhap\icon-arr.png" />
+    <Content Include="pic\dangnhap\icon-delete.png" />
+    <Content Include="pic\dangnhap\icon-tieptuc.png" />
+    <Content Include="pic\dangnhap\pass.png" />
+    <Content Include="pic\dangnhap\sign-in-google.png" />
+    <Content Include="pic\dangnhap\sp1.jpg" />
+    <Content Include="pic\dangnhap\userico.png" />
+    <Content Include="pic\emdep.jpg" />
+    <Content Include="pic\gioi-thieu\road.png" />
+    <Content Include="pic\tin-tuc\bgtitle.png" />
+    <Content Include="pic\tin-tuc\date.gif" />
+    <Content Include="pic\tin-tuc\date.png" />
+    <Content Include="pic\tin-tuc\dotliother1.png" />
+    <Content Include="pic\tin-tuc\dottin.png" />
+    <Content Include="pic\tin-tuc\hoa.jpg" />
+    <Content Include="pic\tin-tuc\thoitrang.JPG" />
+    <Content Include="pic\tin-tuc\thoitrang1.JPG" />
+    <Content Include="pic\tin-tuc\thoitrang3.JPG" />
+    <Content Include="pic\tin-tuc\userimg.png" />
+    <Content Include="pic\tin-tuc\veiw.png" />
+    <Content Include="pic\tin-tuc\view.gif" />
+    <Content Include="pic\tin-tuc\viewmore.png" />
+    <Content Include="pic\tin-tuc\viewmorehv.png" />
+    <Content Include="QuanTri.aspx" />
+    <Content Include="SGThieu.aspx" />
+    <Content Include="SuaSP.aspx" />
+    <Content Include="TaiKhoan.aspx" />
+    <Content Include="TatcaSP.aspx" />
+    <Content Include="TinTuc.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="QLTin.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChitietGH.aspx.cs">
+      <DependentUpon>ChitietGH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChitietGH.aspx.designer.cs">
+      <DependentUpon>ChitietGH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMK.aspx.cs">
+      <DependentUpon>DoiMK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoiMK.aspx.designer.cs">
+      <DependentUpon>DoiMK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietBV.aspx.cs">
+      <DependentUpon>ChiTietBV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChiTietBV.aspx.designer.cs">
+      <DependentUpon>ChiTietBV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietSP.aspx.cs">
+      <DependentUpon>ChiTietSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChiTietSP.aspx.designer.cs">
+      <DependentUpon>ChiTietSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioHang.aspx.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioHang.aspx.designer.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioiThieu.aspx.designer.cs">
+      <DependentUpon>GioiThieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs" />
+    <Compile Include="QuanTri.aspx.cs">
+      <DependentUpon>QuanTri.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QuanTri.aspx.designer.cs">
+      <DependentUpon>QuanTri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SGThieu.aspx.cs">
+      <DependentUpon>SGThieu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SGThieu.aspx.designer.cs">
+      <DependentUpon>SGThieu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SuaSP.aspx.cs">
+      <DependentUpon>SuaSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SuaSP.aspx.designer.cs">
+      <DependentUpon>SuaSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TaiKhoan.aspx.cs">
+      <DependentUpon>TaiKhoan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TaiKhoan.aspx.designer.cs">
+      <DependentUpon>TaiKhoan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TatcaSP.aspx.cs">
+      <DependentUpon>TatcaSP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TatcaSP.aspx.designer.cs">
+      <DependentUpon>TatcaSP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TinTuc.aspx.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TinTuc.aspx.designer.cs">
+      <DependentUpon>TinTuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QLTin.aspx.cs">
+      <DependentUpon>QLTin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QLTin.aspx.designer.cs">
+      <DependentUpon>QLTin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="pictr\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>52003</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44300/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
